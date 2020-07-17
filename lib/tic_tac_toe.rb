@@ -55,6 +55,8 @@ class TicTacToe
   end
   
   def won?
+    WIN_COMBINATIONS.any? do |match|
+      if position_taken?(match[0] @@ @board9)
     
   
 end
